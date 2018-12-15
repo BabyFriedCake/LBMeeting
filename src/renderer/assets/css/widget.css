@@ -1,0 +1,175 @@
+/* 弹窗 */
+.popPage {
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #fff;
+}
+
+.popPage .pageTit {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    font-size: 16px;
+    background: rgba(160, 110, 80, 1);
+    border-radius: 3px 3px 0px 0px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.popPage .pageTit .winOperateBtn {
+    right: 14px;
+    top: 0;
+}
+
+.popPage .pageTit .iconfont {
+    color: #fff;
+}
+.popPage .pageTit .iconfont:hover::before{
+    color: rgba(255,255,255,0.6)
+}
+.pageCon {
+    height: calc(100% - 121px);
+}
+
+.pageTit {
+    position: relative;
+}
+
+.pageTit .left-drag,
+.pageTit .right-drag {
+    position: absolute;
+    top: 0;
+}
+
+.left-drag,
+.right-drag {
+    -webkit-app-region: no-drag;
+    height: 46px;
+    width: 50px;
+}
+
+.left-drag {
+    left: 0;
+}
+
+.right-drag {
+    right: 0;
+}
+
+.crumbs {
+    padding: 16px 0;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 20px;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+
+.pageCon .el-breadcrumb {
+    padding: 20px 0 20px 0 ;
+    border-bottom: 1px solid #E5E5E5;
+    margin-right: 20px;
+}
+
+.pageCon .el-breadcrumb__inner.is-link {
+    color: #333;
+    font-weight: normal
+}
+
+.pageCon .el-breadcrumb__inner,
+.pageCon .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+    color: #F3732D
+}
+
+.pageCon .el-breadcrumb__separator {
+    color: #999
+}
+/* 弹窗按钮 */
+.pageBtns .el-button {
+    width: 80px;
+    margin: 0 10px;
+}
+
+.pageBtns {
+    border-top: 1px solid rgba(229, 229, 229, 1);
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0
+}
+
+.callMeetingLeft,
+.callMeetingRight{
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.callMeetingLeft{
+    border-right: 1px solid rgba(229, 229, 229, 1);
+}
+.roomState1{
+    width:48px;
+    height:17px;
+    line-height:17px;
+    background:rgba(149, 182, 57, 1);
+    border-radius:3px;
+    font-size:12px;
+    color:rgba(255, 255, 255, 1);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 13px
+}
+.roomState2 {
+    width: 48px;
+    height: 17px;
+    line-height: 17px;
+    background: rgba(149, 182, 57, 1);
+    border-radius: 3px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 13px
+}
+.roomState3 {
+    width: 48px;
+    height: 17px;
+    line-height: 17px;
+    background: rgba(149, 182, 57, 1);
+    border-radius: 3px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 13px
+}
+.roomState4 {
+    width: 48px;
+    height: 17px;
+    line-height: 17px;
+    background: rgba(149, 182, 57, 1);
+    border-radius: 3px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 13px
+}

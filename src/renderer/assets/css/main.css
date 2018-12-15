@@ -1,0 +1,450 @@
+body,html{
+    height: 100%;
+    font-family: '微软雅黑'
+}
+.mainPage {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 3px 3px 5px 5px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    /* border: 1px solid #A06E50; */
+    box-sizing: border-box;
+}
+
+.mainTop {
+    height: 312px;
+    background: linear-gradient(0deg, rgba(163, 113, 82, 1), rgba(138, 94, 68, 1));
+    border-radius: 3px 3px 0 0
+}
+
+.mainHeader {
+    height: 47px;
+    position: relative;
+    border-radius: 3px 3px 0 0
+}
+
+.mainHeader>img {
+    margin: 6px 0 0 15px;
+}
+
+.feedbackBtn {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    width: 36px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.feedbackBtn:hover {
+    height: 27px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.feedbackBtn:active {
+    height: 27px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.mainHeader .winOperateBtn .iconfont {
+    color: #fff;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
+    vertical-align: middle;
+}
+
+.mainHeader .winOperateBtn .iconfont:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.mainHeader .winOperateBtn .iconfont:active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.mainHeader .winOperateBtn {
+    right: 7px;
+}
+
+.mainHeader span,
+.mainHeader .winOperateBtn .iconfont {
+    float: left;
+    margin-left: 5px !important;
+}
+
+.headPortrait {
+    display: block;
+    margin: 0 auto;
+    width: 94px;
+    height: 94px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.headPortrait:hover {}
+
+.usernameBox {
+    text-align: center
+}
+
+.usernameBox .username {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 38px;
+}
+
+.usernameBox .vipIcon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.elem01 {
+    width: 1px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+}
+
+.shortcut {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 262px;
+    height: 29px;
+    font-size: 0;
+}
+
+.shortcut li {
+    float: left;
+    box-sizing: border-box;
+    width: 63px;
+    text-align: center;
+    position: relative;
+}
+
+.shortcut li:after {
+    content: "";
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.shortcut li:last-child:after {
+    background: transparent;
+}
+.shortcut .iconfont {
+    color: #fff;
+    font-size: 28px;
+    vertical-align: middle;
+    width: 28px;
+    height: 29px;
+    cursor: pointer;
+     margin-left: 18px;
+}
+.shortcut .iconfont:hover{
+    color: rgba(255,255,255,0.8)
+}
+.tabNav{
+    display: block;
+    text-align: center;
+    border-bottom:1px solid rgba(229, 229, 229, 1);
+    height: 38px;
+    box-sizing: border-box;
+    margin-bottom: 5px
+}
+.tabNav li{
+    display: inline-block;
+    vertical-align: middle;
+    font-size:14px;
+    color:#999;
+    height:36px;
+    line-height: 36px;
+    cursor: pointer;
+    border-bottom:2px solid transparent;
+    width: 42px;
+    padding: 0 4%;
+}
+.tabNav li.active {
+    border-bottom:2px solid rgba(243, 115, 45, 1);
+    color: #333;
+}
+.msgCom li {
+    width:100%;
+    height:60px;
+    position: relative;
+    font-size: 13px;
+}
+.msgCom li:hover{
+    background:#F6F1ED;
+}
+.msgCom li.msgComActive {
+    background: #F3732D;
+    color:#fff;
+}
+.msgCom ul li>img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display: block;
+    margin-top: 10px;
+}
+.msgListName{
+    position: relative;
+    margin-left: 65px;
+    margin-right: 45px;
+    padding-top: 12px;
+}
+.msgListTime{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.mainBottom{
+    width: 100%;
+    height:40px;
+    background:rgba(77, 52, 37, 1);
+    border-radius:0px 0px 3px 3px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 7px;
+    box-sizing: border-box;
+ }
+.iconfont.mainBottomOpr {
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    width:25px;
+    height:27px;
+    line-height: 27px;
+}
+
+.iconfont.mainBottomOpr:hover {
+    background:rgba(255, 255, 255, 0.15);
+}
+.iconfont.mainBottomOpr:active {
+    background: rgba(255, 255, 255, 0.1);
+}
+.mainBottomOprDownshadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.mainBottomOprDown ul{
+    width:160px;
+    height:270px;
+    background:rgba(255, 255, 255, 0.9);
+    box-shadow:0px 0px 24px 0px rgba(173, 174, 188, 0.4);
+    border-radius:3px;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    font-size:12px;
+    color:rgba(51, 51, 51, 1);
+    line-height:28px;
+    padding: 14px 0 0 0;
+    box-sizing: border-box
+}
+.mainBottomOprDown li{
+    padding: 0 30px 0 20px;
+    line-height: 18px;
+    height:28px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.mainBottomOprDown .iconfont{
+    font-size: 12px;
+    margin-right: 6px;
+    vertical-align: middle
+}
+.mainBottomOprDown li.elem02 {
+    height: 1px;
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 0;
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+.mainBottomOprDown li.elem03 {
+    height: 1px;
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 0;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.mainBottomOprDown li:hover {
+    background:rgba(246, 241, 237, 1);
+}
+.mainBottomOprAdd {
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+}
+/* yunFile */
+.yunFile dt{
+    height:30px;
+    line-height:30px;
+    background:rgba(254, 243, 236, 1);
+    font-size:13px;
+    color:rgba(153, 153, 153, 1);
+    padding-left: 10px;
+}
+.yunFile dd{
+    height: 44px;
+    line-height: 44px;
+    font-size:13px;
+    color:rgba(51, 51, 51, 1);
+    border-bottom:1px solid rgba(229, 229, 229, 1);
+    overflow: hidden;
+    position: relative
+}
+.yunFile dd:hover{
+    background:#F6F1ED
+}
+.yunFileCell{
+    position: relative;
+    padding-left: 47px;
+    padding-right: 120px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 13px;
+}
+.yunFileCellName{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    cursor: pointer;
+}
+.yunFileCellRight{
+    position: absolute;
+    right:0;
+    top: 0
+}
+
+.yunFileCellRight span {
+    font-size:12px;
+    font-weight: bold;
+    float: left;
+}
+.yunFileCellRight .icon-pc-icon-3 {
+    color: #999;
+    font-size: 18px;
+    float: left;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.yunFileCellRight span.yunFileTime {
+    font-size:13px;
+    color:rgba(153, 153, 153, 1);
+    font-weight: normal
+}
+.yunFileScroll {
+    height: 338px
+}
+
+.documentIcons{
+    width: 27px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    top: 10px;
+    left: 10px
+}
+.icon-file {
+    background-image: url(../images/icon-file.png);
+}
+.icon-pdf{
+    background-image: url(../images/pdf.png)
+}
+.icon-ppt {
+    background-image: url(../images/ppt.png)
+}
+.icon-jpg {
+    background-image: url(../images/jpg.png)
+}
+.icon-word {
+    background-image: url(../images/word.png)
+}
+.badge{
+    font-size:12px;
+    color:rgba(255, 255, 255, 1);
+    width:48px;
+    height:17px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:3px;
+    line-height: 17px;
+    text-align: center;
+}
+/* 预约会议 */
+.treeContainer {
+  height:170px;
+  border-left:1px solid #C3C3C3;
+  border-right:1px solid #C3C3C3;
+  border-bottom:1px solid #C3C3C3;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom:10px;
+}
+.appoint .selected {
+  width:420px;
+  height:90px;
+  border-radius: 10px;
+  border:1px solid #C3C3C3
+}
+.addMeetingGroup .selected {
+  height:120px !important;
+}
+.groupList {
+  width:416px;
+  height:322px;
+}
+.groupList .close{
+  margin-top:-30px;
+}
+.groupList .icon-pc-icon-7 {
+  font-size: 12px;
+  color:#999999
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

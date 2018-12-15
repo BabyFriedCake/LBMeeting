@@ -1,0 +1,279 @@
+
+.myMeetingPage{
+  height: calc(100% - 46px)
+}
+.myMeetingPage .pageHeader{
+  height: 54px;
+  margin: 0 20px;
+  padding-top: 8px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.myMeetingPage .toggleBtn{
+  font-size:14px;
+  color:rgba(51,51,51,1);
+  line-height: 35px;
+  font-family:"MicrosoftYaHei-Bold";
+}
+.myMeetingPage .toggleBtn span{
+  cursor: pointer;
+}
+.myMeetingPage .border-right-dotted{
+  width: 1px;
+  height: 15px;
+  display: inline-block;
+  background: url('../images/border-right-dotted.png') repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin: -1px 5px 0;
+}
+.myMeetingPage .toggleBtn span.actived{
+  color:rgba(243,115,45,1);
+  font-weight: bold;
+}
+.myMeetingPage .bd-b-10{
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid rgba(229,229,229,1);
+}
+.myMeetingPage .searchWrapper{
+  width: auto;
+  line-height: 29px;
+}
+.myMeetingPage .searchIcon{
+  font-size: 16px;
+  color: rgb(153,153,153);
+}
+.myMeetingPage .el-button.is-round{
+  padding: 0 6px;
+  border-radius: 50%;
+  border-color: #C3C3C3;
+}
+.myMeetingPage .container .smallBtn{
+  height: 22px;
+  line-height: 20px;
+  width: 64px;
+ }
+ .myMeetingPage .container{
+  height: calc(100% - 114px)
+ }
+ .myMeetingPage .pageFooter{
+  height: 74px;
+  width: 100%;
+  border-top: 1px solid rgba(229,229,229,1);
+  background-color: #ffffff;
+  text-align: center;
+ }
+ .myMeetingPage .pageFooter .el-button{
+  margin-top: 20px;
+  width: 80px;
+ }
+ .myMeetingPage .el-input__inner{
+  border: 1px solid #C3C3C3;
+ }
+ .myMeetingPage .meeting-title{
+  font-size:14px;
+  font-family:"MicrosoftYaHei-Bold";
+  font-weight:bold;
+  color:#333333;
+  line-height:20px;
+ }
+ .myMeetingPage .meeting-tips{
+  width:48px;
+  height:17px;
+  display: inline-block;
+  font-size:12px;
+  text-align: center;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height:17px;
+  border-radius:3px;
+}
+.myMeetingPage .meeting-tips.living{
+  background:#F3732D;
+}
+
+.myMeetingPage .meeting-tips.before{
+  background:#95B639;
+}
+
+.myMeetingPage .meeting-tips.end{
+  background:#999999;
+}
+.myMeetingPage .meeting-detail{
+  font-size:14px;
+  font-weight:400;
+  color:#999999;
+  line-height:20px;
+  display: inline;
+}
+.myMeetingPage .colorF3732D span{
+  color: #F3732D;
+}
+.myMeetingPage .meeting-title.lh-25{
+  line-height: 25px;
+}
+.myMeetingPage .meeting-li{
+  font-size: 14px;
+  color: #333333;
+  line-height: 30px;
+}
+.myMeetingPage .meeting-li span{
+ float: left;
+}
+.myMeetingPage .meeting-li p{
+  color:  #999999;
+  margin-left: 70px;
+  word-wrap:break-word;
+}
+.myMeetingPage .upload-box{
+  width:190px;
+  height:40px;
+  border:1px dotted #C3C3C3;
+  border-radius:3px;
+  position: relative;
+}
+.myMeetingPage .upload-btn{
+  font-size:13px;
+  color: #999999;
+  margin: 0 auto;
+  padding-top: 14px;
+  vertical-align: middle;
+  width: 110px;
+  cursor: pointer;
+}
+.myMeetingPage .upload-label{
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+.myMeetingPage .upload-type .el-button{
+  padding: 0;
+  height: 21px;
+  line-height: 21px;
+}
+.myMeetingPage .attend-title{
+  font-size:13px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.myMeetingPage .attend-list{
+  margin-left: 50px;
+}
+.myMeetingPage .attend-list li{
+  float: left;
+  font-size:13px;
+  color: #999999;
+  vertical-align:middle;
+  line-height: 40px;
+}
+.myMeetingPage .attend-list li img{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  float: left;
+}
+.myMeetingPage .file-box{
+  padding: 7px 10px;
+  font-size:13px;
+  color: #999999;
+}
+.myMeetingPage .file-btn{
+  display: inline-block;
+  padding: 0;
+}
+.myMeetingPage .file-name{
+  width: 128px;
+  font-size:13px;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+.myMeetingPage .file-progress{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #95B639;
+  /* transition: 5s ease all; */
+}
+.myMeetingPage .upload-type-pop{
+  width:108px;
+  height:auto;
+  box-sizing: border-box;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 0px 24px 0px rgba(173,174,188,0.4);
+  opacity:0.92;
+  border-radius:3px;
+  position: absolute;
+  left: 180px;
+  top: -20px;
+  color: #333333;
+  font-size:12px;
+  padding: 12px 0;
+  z-index: 999;
+}
+.myMeetingPage .upload-type-pop>p{
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  cursor: pointer;
+}
+.myMeetingPage .upload-type-pop>p:hover{
+  background-color: #F6F1ED;
+}
+.myMeetingPage .upload-icon{
+  border: 1px dotted #C3C3C3;
+}
+.upload-box:hover .upload-icon{
+  color: #F3732D;
+}
+.myMeetingPage .hover-change:hover{
+  color: #ffb186;
+}
+.myMeetingPage .meeting-scrollbar{
+  height: 100%;
+}
+.myMeetingPage .meetingDetail-scrollbar{
+  height: 349px;
+}
+.sharePage .share-tips{
+  height:13px;
+  font-size:13px;
+  color:#333333;
+  text-align: center;
+}
+.sharePage .share-erweima-wrapper{
+  width:120px;
+  height:120px;
+  margin: 40px auto 14px;
+  border: 1px solid #A06E50;
+}
+.sharePage .share-erweima{
+  width: 110px;
+  height: 110px;
+  margin: 4px auto;
+  display: block;
+  background:rgba(247,239,234,1);
+}
+.sharePage .share-btn{
+  width: 80px;
+  margin: 30px auto 0;
+  text-align: center;
+  display: block;
+}
+.myMeetingPage .noMeeting{
+  font-size:16px;
+  color: #999999;
+}
+.myMeetingPage .noMeeting>img{
+ margin: 146px auto 18px;
+ display: block;
+}
+.myMeetingPage .noMeeting>p{
+  text-align: center;
+}

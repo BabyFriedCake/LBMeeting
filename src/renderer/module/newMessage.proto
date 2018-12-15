@@ -1,0 +1,18 @@
+syntax = "proto3";
+package com.troila.tcp.model.proto;
+option java_outer_classname="MessageProto";
+message Message {
+  	 int32 cmd = 1;//请求接口命令字  0消息  1心跳  2上线 3下线 4重连 5回复（eg：已读消息）6 入会通知（手机弹屏）
+	 string from = 2;//发送人
+     string to = 3;//接收人 （可为多个 以‘,’（逗号） 分割）
+     string groupid = 4;//群组id
+     string time = 5;//发送时间
+     MessageBody data = 6;//请求数据
+}
+message MessageBody {
+	 string content = 1;//内容
+	 int32 type = 2;//1 文字   2 表情 3 图片  4文件 5 单人会议邀请 6群聊会议邀请 7会议拒接 8会议未接听
+	 string extend = 3;//扩展字段
+}
+
+	

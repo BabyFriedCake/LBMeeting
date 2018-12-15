@@ -1,0 +1,126 @@
+
+.loginHeader {
+    height: 240px;
+    width: 100%;
+    background: rgba(249, 249, 249, 1);
+    border-bottom: 1px solid #F3732D;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.loginHeader h3 {
+    font-size: 32px;
+    font-weight: 300;
+    color: rgba(141, 97, 69, 1);
+    padding-left: 23px;
+    border-left: 1px solid rgba(141, 97, 69, 0.2);
+    line-height: 50px;
+    display: inline-block;
+}
+.loginHeader img {
+    position: relative;
+    top: 15px;
+    padding-right: 20px;
+}
+
+.loginForm {
+    margin: 0 auto;
+    width: 380px
+}
+
+.el-button--text.lh-18 span {
+    line-height: 18px;
+    display: inline-block;
+}
+.el-button--text.lh-30 span {
+    line-height: 30px;
+    display: inline-block;
+}
+.el-button--text.lh-34 span {
+    line-height: 34px;
+    display: inline-block;
+}
+
+.WeChatLoginBtn .icon-pc-icon-6 {
+    font-size: 30px;
+    vertical-align: top
+}
+
+.WeChatLoginBtn.el-button.el-button--text span {
+    vertical-align: top;
+    line-height: 30px
+}
+
+.winOperateBtn {
+    position: absolute;
+    right: 16px;
+    top: 6px;
+    -webkit-app-region: no-drag;
+}
+
+.winOperateBtn .iconfont {
+    font-size: 11px;
+    color: rgba(153, 153, 153, 1);
+    cursor: pointer;
+}
+.winOperateBtn .iconfont:hover{
+    color:#333;
+}
+.bottomRow{
+    /* position: absolute;
+    bottom: 5px; */
+    margin-top: 65px;
+}
+.loginPage{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 3px;
+}
+.colorfffopacity50{
+    color:rgba(255, 255, 255, 0.5);
+}
+.line-Y{
+    color: #F3732D;
+    margin: 4px;
+}
+.loginHeader ul.lr-tab{
+    overflow: hidden;
+    width: 200px;
+    margin: 45px auto;
+}
+.loginHeader .lr-tab li{
+    cursor: pointer;
+    color: #999999;
+    width: 100px;
+    float: left;
+}
+.loginHeader .lr-tab li.active{
+    color: #F3732D;
+}
+.loginHeader ul.lr-tab label{
+    width: 1px;
+    height: 16px;
+    background-color: #F3732D;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 3px auto;
+    /* top: 3px; */
+}
+.regi-succ img{
+    position: relative;
+    top: 5px;
+}
+.regi-succ .regi-succ-logo{
+    font-size: 16px;
+}
+.regi-succ p{
+    color: #999999;
+    font-size: 14px;
+    margin: 10px;
+}
