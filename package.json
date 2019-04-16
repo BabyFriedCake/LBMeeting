@@ -1,7 +1,7 @@
 {
   "name": "electronvue",
   "version": "0.0.1",
-  "author": "troila",
+  "author": "Lee",
   "description": "An electron-vue project",
   "license": null,
   "main": "./dist/electron/main.js",
@@ -21,7 +21,7 @@
   },
   "build": {
     "productName": "electronVue",
-    "appId": "com.troila.LBMeeting",
+    "appId": "",
     "directories": {
       "output": "build"
     },
